@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #1977cc;
+  --white: #ffffff;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+
+}
+
+html {
+  font-size: 16px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.py-1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.font-sm {
+  font-size: 0.875rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+.gap-10 {
+  gap: 10rem;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.banner-image{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.flex-direction{
+  flex-direction: column;
+
+}
+.flex-direction-row{
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 768px) {
+  .md-flex {
+    display: flex;
+  }
+  .md-justify-between {
+    justify-content: space-between;
+  }
+
+  .md-container {
+    max-width: 44rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .md-px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .lg-container{
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
